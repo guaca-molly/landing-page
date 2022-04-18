@@ -16,6 +16,12 @@ h3 {
   margin: 0;
 }
 
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
 a {
   text-decoration: none;
   font-size: 18px;
@@ -81,4 +87,27 @@ button {
 
 .text {
   max-width: 420px;
+}
+
+.info {
+  background-color: #f9faf8;
+  text-align: center;
+  padding: 50px 0 100px 0;
+}
+
+.info-content {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  
+}
+
+.info-individual {
+  max-width: 150px;
+}
+
+.info img {
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
 }
