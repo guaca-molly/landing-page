@@ -71,7 +71,7 @@ button {
 .hero button {
   background-color: #3882f6;
   border: 2px solid #3882f6;
-  color: white;
+  color: #f9faf8;
   margin-top: 10px;
 }
 
@@ -144,3 +144,33 @@ blockquote {
   color: #1f2937;
 }
 
+.cta {
+  background-color: #f9faf8;
+  color: #f9faf8;
+  padding: 100px 0;
+}
+
+.cta .container{
+ background-color:#3882f6;
+ padding: 50px 75px;
+ border-radius: 10px;
+}
+
+.cta button {
+  background-color: transparent;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+}
+
+.cta p {
+  margin: 5px 0 0 0;
+  color: #e5e7eb;
+}
+
+footer {
+  background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 20px 0;
+}
