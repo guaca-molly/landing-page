@@ -35,5 +35,50 @@ a {
   gap: 20px;
 }
 
+.hero {
+  background-color: #1F2937;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+button {
+  padding: 0.5em 2em;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero button {
+  background-color: #3882f6;
+  border: 2px solid #3882f6;
+  color: white;
+  margin-top: 10px;
+}
 
 
+.image img{
+  max-height: 250px;
+  margin-left: 20px;
+}
+
+
+.info img {
+  width: 200px;
+  height: 200px;
+}
+
+.text {
+  max-width: 420px;
+}
